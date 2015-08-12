@@ -1,4 +1,4 @@
-/* nvd3 version 1.8.1-dev (https://github.com/novus/nvd3) 2015-07-14 */
+/* nvd3 version 1.8.1-dev (https://github.com/novus/nvd3) 2015-08-12 */
 .nvd3 .nv-axis {
     pointer-events:none;
     opacity: 1;
@@ -195,6 +195,15 @@
 .nvd3.nv-linePlusBar .nv-bar rect:hover {
     fill-opacity: 1;
 }
+/* line plus bar */
+.nvd3.nv-linePlusMultibarChartWithFocus .nv-bar rect {
+    fill-opacity: .75;
+}
+
+.nvd3.nv-linePlusMultibarChartWithFocus .nv-bar rect:hover {
+    fill-opacity: 1;
+}
+
 .nvd3 .nv-groups path.nv-line {
     fill: none;
 }
